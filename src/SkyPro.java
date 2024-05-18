@@ -11,9 +11,9 @@ public class SkyPro {
 // задача 2
         int temperature = 16;
         if ( temperature < 5) {
-            System.out.println("На улице " + temperature + " нужно надеть шапку.");
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку.");
         } else {
-            System.out.println("На улице " + temperature + " можно идти без шапки.");
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки.");
         }
 //задача 3
         int speed = 86;
@@ -55,7 +55,7 @@ public class SkyPro {
         } else if (numberOfPassengers < seatPlaces) {
             System.out.println("В вагоне есть сидячие места");
         } else {
-            System.out.println("В вагоне есть сидячие места");
+            System.out.println("В вагоне есть стоячие места");
         }
 // задача 7
         int one = 34;
@@ -66,7 +66,7 @@ public class SkyPro {
         }else if (two > one && two > three){
             System.out.println("Самое большое число " + two);
         } else if (three > one && three > two) {
-            System.out.println("Самое большое число " + one);
+            System.out.println("Самое большое число " + three);
         }
     }
 
